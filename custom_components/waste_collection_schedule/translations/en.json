@@ -16956,6 +16956,29 @@
         },
         "data_description": {}
       },
+      "args_lexingtonma_gov": {
+        "title": "Configure Source",
+        "description": "Configure your service provider. \n\nVisit the Town of Lexington website to find your street in the collection schedule. If the exact name isn't listed, try a close approximation. The source will attempt fuzzy matching.\n\nMore details: https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/source/lexingtonma_gov.md.",
+        "data": {
+          "calendar_title": "Calendar Title",
+          "street": "Street Name"
+        },
+        "data_description": {
+          "calendar_title": "A more readable, or user-friendly, name for the waste calendar. If nothing is provided, the name returned by the source will be used.",
+          "street": "The street name for which you want to retrieve the collection schedule. If multiple segments exist (e.g., 'Bedford Street'), provide part of the name and fuzzy matching will find the closest match."
+        }
+      },
+      "reconfigure_lexingtonma_gov": {
+        "title": "Reconfigure Source",
+        "description": "Configure your service provider. \n\nVisit the Town of Lexington website to find your street in the collection schedule. If the exact name isn't listed, try a close approximation. The source will attempt fuzzy matching.\n\nMore details: https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/source/lexingtonma_gov.md.",
+        "data": {
+          "calendar_title": "Calendar Title",
+          "street": "Street Name"
+        },
+        "data_description": {
+          "street": "The street name for which you want to retrieve the collection schedule. If multiple segments exist (e.g., 'Bedford Street'), provide part of the name and fuzzy matching will find the closest match."
+        }
+      },
       "args_nyc_gov": {
         "title": "Configure Source",
         "description": "Configure your service provider. More details: https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/source/nyc_gov.md.",
